@@ -9,11 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.clearfix:after {
-    content: '';
-    display: table;
-    clear: both;
-}
+
 .container {
     width: 100%;
     max-width: 400px;
@@ -67,6 +63,7 @@ body {
 }
 .form__text--email {
     width: 100%;
+    clear: both;
 }
 .form__text--password {
     width: 100%;
